@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# -*- coding: utf-16 -*-
 from flask import Flask
 app = Flask(__name__)
  
