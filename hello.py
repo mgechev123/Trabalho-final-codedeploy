@@ -5,7 +5,7 @@ app = Flask(__name__)
  
 @app.route('/')
 def hello_world():
- print unicode("私","UTF-8")
+ return unicode("私","UTF-8")
     #return ("Hello, World!"      
      #      + "<br><br><br><br>Apresentação do trabalho final..."
       #     + "<br><br><br><br>")
